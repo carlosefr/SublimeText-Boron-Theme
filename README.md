@@ -12,10 +12,10 @@ You can use the [Sublime Package Control](http://wbond.net/sublime_packages/pack
 
 Or you can copy the color scheme into the Sublime Text packages directory. You can find the path of the directory using the `Preferences -> Browse Packages` menu within Sublime Text.
 
-Now copy the color scheme into this directory or clone the Git reposetory within the packages directory using the following command:
+Now copy the color scheme into this directory or clone the Git repository within the packages directory using the following command:
 
 ```
-git clone https://github.com/mjio/boron.tmtheme.git Boron.tmTheme
+git clone https://github.com/mjio/boron.tmtheme.git Boron\ Color\ Scheme
 ```
 
 Now use the Color Schemes option of your preferences menu to select the Boron color scheme.
