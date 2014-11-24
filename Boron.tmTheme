@@ -152,6 +152,18 @@
 
     <dict>
       <key>name</key>
+      <string>Storage</string>
+      <key>scope</key>
+      <string>storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8fbfdc</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
       <string>Diff insertion</string>
       <key>scope</key>
       <string>diff.inserted, markup.inserted</string>
