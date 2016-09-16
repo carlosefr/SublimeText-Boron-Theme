@@ -240,7 +240,7 @@
 
     <!-- Language-specific Tweaks -->
 
-    <!-- Highlight "in", "not", "and", "or" as proper keywords: -->
+    <!-- Python: Highlight "in", "not", "and", "or" as proper keywords: -->
     <dict>
       <key>name</key>
       <string>Keyword</string>
@@ -253,7 +253,7 @@
       </dict>
     </dict>
 
-    <!-- Prevent highlighting of common words (eg. "install", "enable")
+    <!-- Shell: Prevent highlighting of common words (eg. "install", "enable")
          that are most often wrong due to lack of context-awareness: -->
     <dict>
       <key>name</key>
@@ -264,6 +264,58 @@
       <dict>
         <key>foreground</key>
         <string>#e8e8d3</string>
+      </dict>
+    </dict>
+
+    <!-- C: Prevent inconsistent highlighting of function parameters. -->
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>variable.parameter.c</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e8e8d3</string>
+      </dict>
+    </dict>
+
+    <!-- C: Prevent inconsistent highlighting of function calls. -->
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>variable.function.c</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e8e8d3</string>
+      </dict>
+    </dict>
+
+    <!-- C: Highlight common data types from "sys/types.h". -->
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>support.type.sys-types.c</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8fbfdc</string>
+      </dict>
+    </dict>
+
+    <!-- C: Highlight common data types from "stdint.h". -->
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>support.type.stdint.c</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8fbfdc</string>
       </dict>
     </dict>
 
