@@ -270,7 +270,7 @@
     <!-- C: Prevent inconsistent highlighting of function parameters. -->
     <dict>
       <key>name</key>
-      <string>Keyword</string>
+      <string>Function Parameter</string>
       <key>scope</key>
       <string>variable.parameter.c</string>
       <key>settings</key>
@@ -283,7 +283,7 @@
     <!-- C: Prevent inconsistent highlighting of function calls. -->
     <dict>
       <key>name</key>
-      <string>Keyword</string>
+      <string>Function</string>
       <key>scope</key>
       <string>variable.function.c</string>
       <key>settings</key>
@@ -296,7 +296,7 @@
     <!-- C: Highlight common data types from "sys/types.h". -->
     <dict>
       <key>name</key>
-      <string>Keyword</string>
+      <string>POSIX Type</string>
       <key>scope</key>
       <string>support.type.sys-types.c</string>
       <key>settings</key>
@@ -309,7 +309,7 @@
     <!-- C: Highlight common data types from "stdint.h". -->
     <dict>
       <key>name</key>
-      <string>Keyword</string>
+      <string>Standard Type</string>
       <key>scope</key>
       <string>support.type.stdint.c</string>
       <key>settings</key>
