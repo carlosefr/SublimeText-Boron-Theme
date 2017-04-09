@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
   <key>name</key>
-  <string>Boron</string>
+  <string>Carlon</string>
   <key>website</key>
-  <string>https://github.com/mjio/boron.tmtheme</string>
+  <string>https://github.com/carlosefr/SublimeText-Carlon-Theme</string>
   <key>comment</key>
-  <string>Last update: Aug 10 2016</string>
+  <string>Last update: Apr 9 2017</string>
   <key>settings</key>
   <array>
     <dict>
