@@ -253,6 +253,30 @@
       </dict>
     </dict>
 
+    <dict>
+      <key>name</key>
+      <string>Decorator</string>
+      <key>scope</key>
+      <string>meta.annotation.python - punctuation, meta.annotation.function.python - punctuation - meta.annotation.arguments</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffb964</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Decorator Operator</string>
+      <key>scope</key>
+      <string>punctuation.definition.annotation.python</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dc3264</string>
+      </dict>
+    </dict>
+
     <!-- Shell: Prevent highlighting of common words (eg. "install", "enable")
          that are most often wrong due to lack of context-awareness: -->
     <dict>
