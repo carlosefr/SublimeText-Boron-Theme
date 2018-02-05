@@ -253,6 +253,20 @@
       </dict>
     </dict>
 
+    <!-- Python: Highlight builtin functions and type constructors the same as regular function calls: -->
+    <dict>
+      <key>name</key>
+      <string>Builtin Function</string>
+      <key>scope</key>
+      <string>meta.function-call.python support.function.builtin.python, meta.function-call.python support.type.python</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffb964</string>
+      </dict>
+    </dict>
+
+    <!-- Python: Always highlight decorators as function calls, even when they have no parameters: -->
     <dict>
       <key>name</key>
       <string>Decorator</string>
@@ -265,6 +279,7 @@
       </dict>
     </dict>
 
+    <!-- Python: Highlight the "@" operator in decorators: -->
     <dict>
       <key>name</key>
       <string>Decorator Operator</string>
