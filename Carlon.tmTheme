@@ -28,6 +28,27 @@
         <string>#202024</string>
         <key>gutterForeground</key>
         <string>#373737</string>
+
+        <key>findHighlight</key>
+        <string>#b0d0f0</string>
+        <key>findHighlightForeground</key>
+        <string>#151515</string>
+
+        <key>guide</key>
+        <string>#262626</string>
+        <key>stackGuide</key>
+        <string>#262626</string>
+        <key>activeGuide</key>
+        <string>#404040</string>
+
+        <key>bracketsForeground</key>
+        <string>#dc3264</string>
+        <key>bracketsOptions</key>
+        <string>underline</string>
+        <key>bracketContentsForeground</key>
+        <string>#b0d0f0</string>
+        <key>bracketContentsOptions</key>
+        <string>underline</string>
       </dict>
     </dict>
 
