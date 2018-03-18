@@ -15,10 +15,11 @@
       <dict>
         <key>background</key>
         <string>#151515</string>
-        <key>caret</key>
-        <string>#b0d0f0</string>
         <key>foreground</key>
         <string>#e8e8d3</string>
+
+        <key>caret</key>
+        <string>#b0d0f0</string>
         <key>invisibles</key>
         <string>#e8e8d3</string>
         <key>selection</key>
