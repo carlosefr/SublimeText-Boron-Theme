@@ -280,7 +280,7 @@
       <key>name</key>
       <string>Builtin Function</string>
       <key>scope</key>
-      <string>meta.function-call.python support.function.builtin.python, meta.function-call.python support.type.python</string>
+      <string>support.function.builtin.python, support.function.magic.python, support.type.python</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
