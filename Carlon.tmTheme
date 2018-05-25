@@ -260,6 +260,18 @@
       </dict>
     </dict>
 
+    <dict>
+      <key>name</key>
+      <string>Line continuation</string>
+      <key>scope</key>
+      <string>punctuation.separator.continuation.line</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dc3264</string>
+      </dict>
+    </dict>
+
     <!-- Language-specific Tweaks -->
 
     <!-- Python: Highlight "in", "not", "and", "or" as proper keywords: -->
@@ -415,6 +427,19 @@
       <dict>
         <key>foreground</key>
         <string>#baeaba</string>
+      </dict>
+    </dict>
+
+    <!-- YAML: Highlight document separator. -->
+    <dict>
+      <key>name</key>
+      <string>Document Separator</string>
+      <key>scope</key>
+      <string>entity.other.document.begin.yaml</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#dc3264</string>
       </dict>
     </dict>
 
