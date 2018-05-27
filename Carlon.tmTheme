@@ -326,6 +326,19 @@
       </dict>
     </dict>
 
+    <!-- Python: Prevent inconsistent highlighting of constants: -->
+    <dict>
+      <key>name</key>
+      <string>Constant</string>
+      <key>scope</key>
+      <string>variable.other.constant.python</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e8e8d3</string>
+      </dict>
+    </dict>
+
     <!-- Shell: Prevent highlighting of common words (eg. "install", "enable")
          that are most often wrong due to lack of context-awareness: -->
     <dict>
